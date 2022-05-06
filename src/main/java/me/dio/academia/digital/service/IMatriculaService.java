@@ -20,7 +20,9 @@ public interface IMatriculaService {
    */
   Matricula get(Long id);
 
-  /**
+    List<Matricula> getAll(String bairro);
+
+    /**
    * Retorna todas as Matrículas que estão no banco de dados.
    * @return - uma lista com todas as Matrículas que estão salvas no DB.
    */
